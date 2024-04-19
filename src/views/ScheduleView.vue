@@ -24,29 +24,6 @@ fetchAppointments(moment().startOf('day'), moment().endOf('day'))
 </script>
 
 <template>
-    <AppButton
-        label="Default"
-        variant="default"
-    />
-    <AppButton
-        label="Primary"
-        variant="primary"
-    />
-    <AppButton
-        label="Outline"
-        variant="outline"
-    />
-    <AppButton
-        label="Text"
-        variant="text"
-    />
-
-    <AppButtonGroup variant="primary">
-        <AppButton label="Default1" />
-        <AppButton label="Default2" />
-        <AppButton label="Default3" />
-    </AppButtonGroup>
-
     <AppCalendar
         :providers="providers"
         :appointments="appointments"
