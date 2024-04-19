@@ -34,6 +34,11 @@ function hourLabel(interval: Moment): string {
         : ''
 }
 
+function getProviderName(providerId: string): string {
+    const provider = props.providers.find((p) => p.id === providerId)
+    return provider?.name.fullName || ''
+}
+
 function getProviderColumnClass(providerId: string) {
     const index = props.providers.findIndex((p) => p.id === providerId)
     return `col-start-${index + 1}`
@@ -103,12 +108,10 @@ function getTimeSpan(apptStart: Moment, apptEnd: Moment): string {
                             <!-- grid for half-hour rows -->
                             <div
                                 class="grid-half-hour col-start-1 row-start-1 grid grid-cols-1"
-                                :class="`grid-rows-[1.75rem repeat(${halfHourIntervals.length}, minmax(0, 1fr))]`"
+                                :class="`grid-rows-[3rem repeat(${halfHourIntervals.length}, minmax(0, 1fr))]`"
                             >
                                 <!-- extra space under sticky header -->
-                                <div
-                                    className="h-6 border-b p-1 bg-slate-50"
-                                ></div>
+                                <div className="border-b bg-slate-50"></div>
 
                                 <!-- interval rows and hour markers -->
                                 <div
@@ -145,12 +148,16 @@ function getTimeSpan(apptStart: Moment, apptEnd: Moment): string {
                                 class="grid col-start-1 row-start-1"
                                 :class="`grid-cols-${providers.length} grid-rows-minutes`"
                             >
-                                <!-- <AppCalendarAppt
+                                <li title="Current time"></li>
+                                <AppCalendarAppt
                                     v-for="appointment in appointments"
                                     :key="appointment.id"
                                     :appointment="appointment"
+                                    :providerName="
+                                        getProviderName(appointment.providerId)
+                                    "
                                     :class="`${getProviderColumnClass(appointment.providerId)} ${getStartRow(appointment.start)} ${getTimeSpan(appointment.start, appointment.end)}`"
-                                /> -->
+                                />
                             </ol>
                         </div>
                     </div>
@@ -159,6 +166,8 @@ function getTimeSpan(apptStart: Moment, apptEnd: Moment): string {
 
             <!-- side bar for small month-view calendar -->
         </div>
+
+        <!-- legend -->
     </div>
 </template>
 

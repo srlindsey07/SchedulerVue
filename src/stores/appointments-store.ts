@@ -27,9 +27,9 @@ export const useAppointmentsStore = defineStore('appointments', () => {
                     moment(appt.start),
                     moment(appt.end),
                     AppointmentStatus[
-                        appt.start as keyof typeof AppointmentStatus
+                        appt.status as keyof typeof AppointmentStatus
                     ],
-                    AppointmentType[appt.end as keyof typeof AppointmentType],
+                    AppointmentType[appt.type as keyof typeof AppointmentType],
                 ),
         )
         appointments.value = allAppts.filter((appt) => {

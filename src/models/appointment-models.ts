@@ -44,4 +44,15 @@ export enum AppointmentType {
     FOLLOW_UP = 'FOLLOW_UP',
     NEW_PATIENT = 'NEW_PATIENT',
     OFFICE_VISIT = 'OFFICE_VISIT',
+    UNKNOWN = 'UNKNOWN',
 }
+
+// Color associated with each appointment type
+export const appointmentTypeColorMap = new Map<AppointmentType, string>([
+    [AppointmentType.ROUTINE, 'sky'],
+    [AppointmentType.URGENT, 'orange'],
+    [AppointmentType.FOLLOW_UP, 'lime'],
+    [AppointmentType.NEW_PATIENT, 'violet'],
+    [AppointmentType.OFFICE_VISIT, 'pink'],
+    [AppointmentType.UNKNOWN, 'slate'],
+])
