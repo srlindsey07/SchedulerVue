@@ -1,0 +1,1002 @@
+[
+    {
+        "id": "6621027efc13ae0dc5a2423c",
+        "type": "ROUTINE",
+        "status": "CONFIRMED",
+        "start": "2024-04-08T14:00:00Z",
+        "end": "2024-04-08T14:30:00Z",
+        "providerId": "65ff4be0fc13ae7d2050faa2",
+        "patientId": "65ff4b94fc13ae7bd250faa8",
+        "patientShortName": "Q. Laf"
+    },
+    {
+        "id": "6621027efc13ae0dc5a2423d",
+        "type": "URGENT",
+        "status": "SCHEDULED",
+        "start": "2024-04-10T13:15:00Z",
+        "end": "2024-04-10T13:45:00Z",
+        "providerId": "65ff4be0fc13ae7d2050faa1",
+        "patientId": "65ff4b94fc13ae7bd250faaf",
+        "patientShortName": "Y. Kei"
+    },
+    {
+        "id": "6621027efc13ae0dc5a2423e",
+        "type": "OFFICE_VISIT",
+        "status": "SCHEDULED",
+        "start": "2024-04-13T13:15:00Z",
+        "end": "2024-04-13T13:45:00Z",
+        "providerId": "65ff4be0fc13ae7d2050fa9e",
+        "patientId": "65ff4b94fc13ae7bd250faa0",
+        "patientShortName": "Q. Rou"
+    },
+    {
+        "id": "6621027efc13ae0dc5a2423f",
+        "type": "URGENT",
+        "status": "CONFIRMED",
+        "start": "2024-04-22T13:15:00Z",
+        "end": "2024-04-22T13:45:00Z",
+        "providerId": "65ff4be0fc13ae7d2050faa0",
+        "patientId": "65ff4b94fc13ae7bd250faa7",
+        "patientShortName": "A. Tum"
+    },
+    {
+        "id": "6621027efc13ae0dc5a24240",
+        "type": "FOLLOW_UP",
+        "status": "SCHEDULED",
+        "start": "2024-04-31T09:15:00Z",
+        "end": "2024-04-31T09:45:00Z",
+        "providerId": "65ff4be0fc13ae7d2050fa9e",
+        "patientId": "65ff4b94fc13ae7bd250fa9c",
+        "patientShortName": "C. And"
+    },
+    {
+        "id": "6621027efc13ae0dc5a24241",
+        "type": "URGENT",
+        "status": "CANCELED",
+        "start": "2024-04-07T08:30:00Z",
+        "end": "2024-04-07T09:00:00Z",
+        "providerId": "65ff4be0fc13ae7d2050faa1",
+        "patientId": "65ff4b94fc13ae7bd250fa9e",
+        "patientShortName": "Z. Bri"
+    },
+    {
+        "id": "6621027efc13ae0dc5a24242",
+        "type": "FOLLOW_UP",
+        "status": "COMPLETE",
+        "start": "2024-04-23T10:30:00Z",
+        "end": "2024-04-23T11:00:00Z",
+        "providerId": "65ff4be0fc13ae7d2050faa0",
+        "patientId": "65ff4b94fc13ae7bd250faac",
+        "patientShortName": "N. Bai"
+    },
+    {
+        "id": "6621027efc13ae0dc5a24243",
+        "type": "FOLLOW_UP",
+        "status": "COMPLETE",
+        "start": "2024-04-01T10:30:00Z",
+        "end": "2024-04-01T11:00:00Z",
+        "providerId": "65ff4be0fc13ae7d2050faa1",
+        "patientId": "65ff4b94fc13ae7bd250fa9d",
+        "patientShortName": "L. Aik"
+    },
+    {
+        "id": "6621027efc13ae0dc5a24244",
+        "type": "NEW_PATIENT",
+        "status": "CANCELED",
+        "start": "2024-04-23T11:30:00Z",
+        "end": "2024-04-23T12:00:00Z",
+        "providerId": "65ff4be0fc13ae7d2050fa9d",
+        "patientId": "65ff4b94fc13ae7bd250fa9c",
+        "patientShortName": "J. Bri"
+    },
+    {
+        "id": "6621027efc13ae0dc5a24245",
+        "type": "FOLLOW_UP",
+        "status": "COMPLETE",
+        "start": "2024-04-27T15:15:00Z",
+        "end": "2024-04-27T15:45:00Z",
+        "providerId": "65ff4be0fc13ae7d2050faa2",
+        "patientId": "65ff4b94fc13ae7bd250faad",
+        "patientShortName": "A. Dig"
+    },
+    {
+        "id": "6621027efc13ae0dc5a24246",
+        "type": "ROUTINE",
+        "status": "CONFIRMED",
+        "start": "2024-04-12T14:15:00Z",
+        "end": "2024-04-12T14:45:00Z",
+        "providerId": "65ff4be0fc13ae7d2050faa2",
+        "patientId": "65ff4b94fc13ae7bd250faa9",
+        "patientShortName": "U. Lin"
+    },
+    {
+        "id": "6621027efc13ae0dc5a24247",
+        "type": "FOLLOW_UP",
+        "status": "CONFIRMED",
+        "start": "2024-04-14T14:45:00Z",
+        "end": "2024-04-14T15:15:00Z",
+        "providerId": "65ff4be0fc13ae7d2050fa9e",
+        "patientId": "65ff4b94fc13ae7bd250fa9c",
+        "patientShortName": "Y. Kla"
+    },
+    {
+        "id": "6621027efc13ae0dc5a24248",
+        "type": "OFFICE_VISIT",
+        "status": "COMPLETE",
+        "start": "2024-04-10T08:00:00Z",
+        "end": "2024-04-10T08:30:00Z",
+        "providerId": "65ff4be0fc13ae7d2050fa9d",
+        "patientId": "65ff4b94fc13ae7bd250faa1",
+        "patientShortName": "N. Sil"
+    },
+    {
+        "id": "6621027efc13ae0dc5a24249",
+        "type": "NEW_PATIENT",
+        "status": "CONFIRMED",
+        "start": "2024-04-18T10:15:00Z",
+        "end": "2024-04-18T10:45:00Z",
+        "providerId": "65ff4be0fc13ae7d2050faa0",
+        "patientId": "65ff4b94fc13ae7bd250faaa",
+        "patientShortName": "H. Bor"
+    },
+    {
+        "id": "6621027efc13ae0dc5a2424a",
+        "type": "URGENT",
+        "status": "SCHEDULED",
+        "start": "2024-04-26T10:00:00Z",
+        "end": "2024-04-26T10:30:00Z",
+        "providerId": "65ff4be0fc13ae7d2050faa1",
+        "patientId": "65ff4b94fc13ae7bd250faab",
+        "patientShortName": "C. Sum"
+    },
+    {
+        "id": "6621027efc13ae0dc5a2424b",
+        "type": "ROUTINE",
+        "status": "COMPLETE",
+        "start": "2024-04-19T15:45:00Z",
+        "end": "2024-04-19T16:15:00Z",
+        "providerId": "65ff4be0fc13ae7d2050fa9d",
+        "patientId": "65ff4b94fc13ae7bd250faa6",
+        "patientShortName": "M. Le "
+    },
+    {
+        "id": "6621027efc13ae0dc5a2424c",
+        "type": "URGENT",
+        "status": "CANCELED",
+        "start": "2024-04-17T14:15:00Z",
+        "end": "2024-04-17T14:45:00Z",
+        "providerId": "65ff4be0fc13ae7d2050faa0",
+        "patientId": "65ff4b94fc13ae7bd250faa0",
+        "patientShortName": "V. Bar"
+    },
+    {
+        "id": "6621027efc13ae0dc5a2424d",
+        "type": "ROUTINE",
+        "status": "SCHEDULED",
+        "start": "2024-04-03T14:30:00Z",
+        "end": "2024-04-03T15:00:00Z",
+        "providerId": "65ff4be0fc13ae7d2050faa2",
+        "patientId": "65ff4b94fc13ae7bd250faab",
+        "patientShortName": "L. O'C"
+    },
+    {
+        "id": "6621027efc13ae0dc5a2424e",
+        "type": "ROUTINE",
+        "status": "COMPLETE",
+        "start": "2024-04-12T15:45:00Z",
+        "end": "2024-04-12T16:15:00Z",
+        "providerId": "65ff4be0fc13ae7d2050fa9e",
+        "patientId": "65ff4b94fc13ae7bd250faa9",
+        "patientShortName": "D. Kac"
+    },
+    {
+        "id": "6621027efc13ae0dc5a2424f",
+        "type": "URGENT",
+        "status": "COMPLETE",
+        "start": "2024-04-14T14:45:00Z",
+        "end": "2024-04-14T15:15:00Z",
+        "providerId": "65ff4be0fc13ae7d2050faa1",
+        "patientId": "65ff4b94fc13ae7bd250faa8",
+        "patientShortName": "Y. Duf"
+    },
+    {
+        "id": "6621027efc13ae0dc5a24250",
+        "type": "NEW_PATIENT",
+        "status": "CANCELED",
+        "start": "2024-04-29T08:45:00Z",
+        "end": "2024-04-29T09:15:00Z",
+        "providerId": "65ff4be0fc13ae7d2050fa9d",
+        "patientId": "65ff4b94fc13ae7bd250faac",
+        "patientShortName": "J. Bal"
+    },
+    {
+        "id": "6621027efc13ae0dc5a24251",
+        "type": "URGENT",
+        "status": "CANCELED",
+        "start": "2024-04-27T16:15:00Z",
+        "end": "2024-04-27T16:45:00Z",
+        "providerId": "65ff4be0fc13ae7d2050fa9d",
+        "patientId": "65ff4b94fc13ae7bd250faaa",
+        "patientShortName": "A. Cha"
+    },
+    {
+        "id": "6621027efc13ae0dc5a24252",
+        "type": "OFFICE_VISIT",
+        "status": "SCHEDULED",
+        "start": "2024-04-16T11:00:00Z",
+        "end": "2024-04-16T11:30:00Z",
+        "providerId": "65ff4be0fc13ae7d2050fa9d",
+        "patientId": "65ff4b94fc13ae7bd250faad",
+        "patientShortName": "X. Por"
+    },
+    {
+        "id": "6621027efc13ae0dc5a24253",
+        "type": "ROUTINE",
+        "status": "SCHEDULED",
+        "start": "2024-04-10T08:00:00Z",
+        "end": "2024-04-10T08:30:00Z",
+        "providerId": "65ff4be0fc13ae7d2050faa2",
+        "patientId": "65ff4b94fc13ae7bd250faa1",
+        "patientShortName": "T. Lob"
+    },
+    {
+        "id": "6621027efc13ae0dc5a24254",
+        "type": "NEW_PATIENT",
+        "status": "CANCELED",
+        "start": "2024-04-25T14:15:00Z",
+        "end": "2024-04-25T14:45:00Z",
+        "providerId": "65ff4be0fc13ae7d2050fa9e",
+        "patientId": "65ff4b94fc13ae7bd250faa3",
+        "patientShortName": "L. Sto"
+    },
+    {
+        "id": "6621027efc13ae0dc5a24255",
+        "type": "FOLLOW_UP",
+        "status": "CONFIRMED",
+        "start": "2024-04-14T09:45:00Z",
+        "end": "2024-04-14T10:15:00Z",
+        "providerId": "65ff4be0fc13ae7d2050faa1",
+        "patientId": "65ff4b94fc13ae7bd250faa5",
+        "patientShortName": "Y. Gab"
+    },
+    {
+        "id": "6621027efc13ae0dc5a24256",
+        "type": "URGENT",
+        "status": "COMPLETE",
+        "start": "2024-04-28T13:45:00Z",
+        "end": "2024-04-28T14:15:00Z",
+        "providerId": "65ff4be0fc13ae7d2050fa9e",
+        "patientId": "65ff4b94fc13ae7bd250fa9e",
+        "patientShortName": "A. Cir"
+    },
+    {
+        "id": "6621027efc13ae0dc5a24257",
+        "type": "NEW_PATIENT",
+        "status": "CONFIRMED",
+        "start": "2024-04-18T10:45:00Z",
+        "end": "2024-04-18T11:15:00Z",
+        "providerId": "65ff4be0fc13ae7d2050faa1",
+        "patientId": "65ff4b94fc13ae7bd250faab",
+        "patientShortName": "M. She"
+    },
+    {
+        "id": "6621027efc13ae0dc5a24258",
+        "type": "OFFICE_VISIT",
+        "status": "SCHEDULED",
+        "start": "2024-04-24T09:30:00Z",
+        "end": "2024-04-24T10:00:00Z",
+        "providerId": "65ff4be0fc13ae7d2050fa9e",
+        "patientId": "65ff4b94fc13ae7bd250fa9d",
+        "patientShortName": "D. Rai"
+    },
+    {
+        "id": "6621027efc13ae0dc5a24259",
+        "type": "OFFICE_VISIT",
+        "status": "CONFIRMED",
+        "start": "2024-04-16T08:00:00Z",
+        "end": "2024-04-16T08:30:00Z",
+        "providerId": "65ff4be0fc13ae7d2050fa9e",
+        "patientId": "65ff4b94fc13ae7bd250faae",
+        "patientShortName": "J. Fou"
+    },
+    {
+        "id": "6621027efc13ae0dc5a2425a",
+        "type": "FOLLOW_UP",
+        "status": "SCHEDULED",
+        "start": "2024-04-24T14:00:00Z",
+        "end": "2024-04-24T14:30:00Z",
+        "providerId": "65ff4be0fc13ae7d2050fa9e",
+        "patientId": "65ff4b94fc13ae7bd250faa9",
+        "patientShortName": "P. Bod"
+    },
+    {
+        "id": "6621027efc13ae0dc5a2425b",
+        "type": "URGENT",
+        "status": "COMPLETE",
+        "start": "2024-04-22T09:45:00Z",
+        "end": "2024-04-22T10:15:00Z",
+        "providerId": "65ff4be0fc13ae7d2050faa2",
+        "patientId": "65ff4b94fc13ae7bd250fa9f",
+        "patientShortName": "C. Jee"
+    },
+    {
+        "id": "6621027efc13ae0dc5a2425c",
+        "type": "OFFICE_VISIT",
+        "status": "CANCELED",
+        "start": "2024-04-03T16:00:00Z",
+        "end": "2024-04-03T16:30:00Z",
+        "providerId": "65ff4be0fc13ae7d2050fa9e",
+        "patientId": "65ff4b94fc13ae7bd250faac",
+        "patientShortName": "H. Beb"
+    },
+    {
+        "id": "6621027efc13ae0dc5a2425d",
+        "type": "ROUTINE",
+        "status": "SCHEDULED",
+        "start": "2024-04-02T15:30:00Z",
+        "end": "2024-04-02T16:00:00Z",
+        "providerId": "65ff4be0fc13ae7d2050fa9d",
+        "patientId": "65ff4b94fc13ae7bd250fa9d",
+        "patientShortName": "U. Geo"
+    },
+    {
+        "id": "6621027efc13ae0dc5a2425e",
+        "type": "ROUTINE",
+        "status": "CONFIRMED",
+        "start": "2024-04-25T09:30:00Z",
+        "end": "2024-04-25T10:00:00Z",
+        "providerId": "65ff4be0fc13ae7d2050faa1",
+        "patientId": "65ff4b94fc13ae7bd250faa1",
+        "patientShortName": "L. Sou"
+    },
+    {
+        "id": "6621027efc13ae0dc5a2425f",
+        "type": "NEW_PATIENT",
+        "status": "COMPLETE",
+        "start": "2024-04-18T16:00:00Z",
+        "end": "2024-04-18T16:30:00Z",
+        "providerId": "65ff4be0fc13ae7d2050faa2",
+        "patientId": "65ff4b94fc13ae7bd250faab",
+        "patientShortName": "I. Mil"
+    },
+    {
+        "id": "6621027efc13ae0dc5a24260",
+        "type": "ROUTINE",
+        "status": "CANCELED",
+        "start": "2024-04-21T10:00:00Z",
+        "end": "2024-04-21T10:30:00Z",
+        "providerId": "65ff4be0fc13ae7d2050faa2",
+        "patientId": "65ff4b94fc13ae7bd250faa5",
+        "patientShortName": "V. Fau"
+    },
+    {
+        "id": "6621027efc13ae0dc5a24261",
+        "type": "NEW_PATIENT",
+        "status": "COMPLETE",
+        "start": "2024-04-26T10:15:00Z",
+        "end": "2024-04-26T10:45:00Z",
+        "providerId": "65ff4be0fc13ae7d2050faa0",
+        "patientId": "65ff4b94fc13ae7bd250faa4",
+        "patientShortName": "Y. Kar"
+    },
+    {
+        "id": "6621027efc13ae0dc5a24262",
+        "type": "OFFICE_VISIT",
+        "status": "CONFIRMED",
+        "start": "2024-04-11T16:15:00Z",
+        "end": "2024-04-11T16:45:00Z",
+        "providerId": "65ff4be0fc13ae7d2050faa2",
+        "patientId": "65ff4b94fc13ae7bd250faa9",
+        "patientShortName": "F. Ark"
+    },
+    {
+        "id": "6621027efc13ae0dc5a24263",
+        "type": "NEW_PATIENT",
+        "status": "SCHEDULED",
+        "start": "2024-04-05T11:45:00Z",
+        "end": "2024-04-05T12:15:00Z",
+        "providerId": "65ff4be0fc13ae7d2050faa1",
+        "patientId": "65ff4b94fc13ae7bd250faa6",
+        "patientShortName": "D. Fai"
+    },
+    {
+        "id": "6621027efc13ae0dc5a24264",
+        "type": "FOLLOW_UP",
+        "status": "CONFIRMED",
+        "start": "2024-04-23T14:30:00Z",
+        "end": "2024-04-23T15:00:00Z",
+        "providerId": "65ff4be0fc13ae7d2050fa9d",
+        "patientId": "65ff4b94fc13ae7bd250faa1",
+        "patientShortName": "X. Bow"
+    },
+    {
+        "id": "6621027efc13ae0dc5a24265",
+        "type": "NEW_PATIENT",
+        "status": "CONFIRMED",
+        "start": "2024-04-05T11:30:00Z",
+        "end": "2024-04-05T12:00:00Z",
+        "providerId": "65ff4be0fc13ae7d2050fa9d",
+        "patientId": "65ff4b94fc13ae7bd250faa8",
+        "patientShortName": "Q. Mag"
+    },
+    {
+        "id": "6621027efc13ae0dc5a24266",
+        "type": "OFFICE_VISIT",
+        "status": "COMPLETE",
+        "start": "2024-04-02T16:45:00Z",
+        "end": "2024-04-02T17:15:00Z",
+        "providerId": "65ff4be0fc13ae7d2050faa0",
+        "patientId": "65ff4b94fc13ae7bd250fa9d",
+        "patientShortName": "V. She"
+    },
+    {
+        "id": "6621027ffc13ae0dc5a24267",
+        "type": "OFFICE_VISIT",
+        "status": "CANCELED",
+        "start": "2024-04-29T09:00:00Z",
+        "end": "2024-04-29T09:30:00Z",
+        "providerId": "65ff4be0fc13ae7d2050fa9d",
+        "patientId": "65ff4b94fc13ae7bd250faa9",
+        "patientShortName": "Z. Pat"
+    },
+    {
+        "id": "6621027ffc13ae0dc5a24268",
+        "type": "ROUTINE",
+        "status": "COMPLETE",
+        "start": "2024-04-24T09:00:00Z",
+        "end": "2024-04-24T09:30:00Z",
+        "providerId": "65ff4be0fc13ae7d2050faa0",
+        "patientId": "65ff4b94fc13ae7bd250fa9c",
+        "patientShortName": "L. Clu"
+    },
+    {
+        "id": "6621027ffc13ae0dc5a24269",
+        "type": "OFFICE_VISIT",
+        "status": "COMPLETE",
+        "start": "2024-04-08T14:00:00Z",
+        "end": "2024-04-08T14:30:00Z",
+        "providerId": "65ff4be0fc13ae7d2050faa1",
+        "patientId": "65ff4b94fc13ae7bd250faa6",
+        "patientShortName": "I. McF"
+    },
+    {
+        "id": "6621027ffc13ae0dc5a2426a",
+        "type": "FOLLOW_UP",
+        "status": "CANCELED",
+        "start": "2024-04-17T09:15:00Z",
+        "end": "2024-04-17T09:45:00Z",
+        "providerId": "65ff4be0fc13ae7d2050faa2",
+        "patientId": "65ff4b94fc13ae7bd250faa8",
+        "patientShortName": "S. Bic"
+    },
+    {
+        "id": "6621027ffc13ae0dc5a2426b",
+        "type": "ROUTINE",
+        "status": "CONFIRMED",
+        "start": "2024-04-21T11:30:00Z",
+        "end": "2024-04-21T12:00:00Z",
+        "providerId": "65ff4be0fc13ae7d2050faa1",
+        "patientId": "65ff4b94fc13ae7bd250faac",
+        "patientShortName": "T. Tor"
+    },
+    {
+        "id": "6621027ffc13ae0dc5a2426c",
+        "type": "URGENT",
+        "status": "COMPLETE",
+        "start": "2024-04-13T10:00:00Z",
+        "end": "2024-04-13T10:30:00Z",
+        "providerId": "65ff4be0fc13ae7d2050faa0",
+        "patientId": "65ff4b94fc13ae7bd250faac",
+        "patientShortName": "K. Wei"
+    },
+    {
+        "id": "6621027ffc13ae0dc5a2426d",
+        "type": "URGENT",
+        "status": "COMPLETE",
+        "start": "2024-04-09T15:45:00Z",
+        "end": "2024-04-09T16:15:00Z",
+        "providerId": "65ff4be0fc13ae7d2050faa2",
+        "patientId": "65ff4b94fc13ae7bd250faad",
+        "patientShortName": "D. McD"
+    },
+    {
+        "id": "6621027ffc13ae0dc5a2426e",
+        "type": "OFFICE_VISIT",
+        "status": "CONFIRMED",
+        "start": "2024-04-05T15:15:00Z",
+        "end": "2024-04-05T15:45:00Z",
+        "providerId": "65ff4be0fc13ae7d2050fa9d",
+        "patientId": "65ff4b94fc13ae7bd250faac",
+        "patientShortName": "V. Roo"
+    },
+    {
+        "id": "6621027ffc13ae0dc5a2426f",
+        "type": "ROUTINE",
+        "status": "COMPLETE",
+        "start": "2024-04-18T10:30:00Z",
+        "end": "2024-04-18T11:00:00Z",
+        "providerId": "65ff4be0fc13ae7d2050fa9e",
+        "patientId": "65ff4b94fc13ae7bd250faa6",
+        "patientShortName": "Z. Mil"
+    },
+    {
+        "id": "6621027ffc13ae0dc5a24270",
+        "type": "URGENT",
+        "status": "SCHEDULED",
+        "start": "2024-04-19T16:15:00Z",
+        "end": "2024-04-19T16:45:00Z",
+        "providerId": "65ff4be0fc13ae7d2050faa0",
+        "patientId": "65ff4b94fc13ae7bd250faa0",
+        "patientShortName": "N. San"
+    },
+    {
+        "id": "6621027ffc13ae0dc5a24271",
+        "type": "OFFICE_VISIT",
+        "status": "SCHEDULED",
+        "start": "2024-04-07T14:15:00Z",
+        "end": "2024-04-07T14:45:00Z",
+        "providerId": "65ff4be0fc13ae7d2050fa9d",
+        "patientId": "65ff4b94fc13ae7bd250faa2",
+        "patientShortName": "Y. Puc"
+    },
+    {
+        "id": "6621027ffc13ae0dc5a24272",
+        "type": "FOLLOW_UP",
+        "status": "CONFIRMED",
+        "start": "2024-04-23T14:15:00Z",
+        "end": "2024-04-23T14:45:00Z",
+        "providerId": "65ff4be0fc13ae7d2050fa9d",
+        "patientId": "65ff4b94fc13ae7bd250faaa",
+        "patientShortName": "N. Sim"
+    },
+    {
+        "id": "6621027ffc13ae0dc5a24273",
+        "type": "URGENT",
+        "status": "CANCELED",
+        "start": "2024-04-22T14:30:00Z",
+        "end": "2024-04-22T15:00:00Z",
+        "providerId": "65ff4be0fc13ae7d2050faa0",
+        "patientId": "65ff4b94fc13ae7bd250faa5",
+        "patientShortName": "M. Bar"
+    },
+    {
+        "id": "6621027ffc13ae0dc5a24274",
+        "type": "OFFICE_VISIT",
+        "status": "COMPLETE",
+        "start": "2024-04-03T08:45:00Z",
+        "end": "2024-04-03T09:15:00Z",
+        "providerId": "65ff4be0fc13ae7d2050faa2",
+        "patientId": "65ff4b94fc13ae7bd250faa7",
+        "patientShortName": "G. Hem"
+    },
+    {
+        "id": "6621027ffc13ae0dc5a24275",
+        "type": "ROUTINE",
+        "status": "CANCELED",
+        "start": "2024-04-29T13:45:00Z",
+        "end": "2024-04-29T14:15:00Z",
+        "providerId": "65ff4be0fc13ae7d2050faa1",
+        "patientId": "65ff4b94fc13ae7bd250faad",
+        "patientShortName": "O. McD"
+    },
+    {
+        "id": "6621027ffc13ae0dc5a24276",
+        "type": "NEW_PATIENT",
+        "status": "CANCELED",
+        "start": "2024-04-28T10:45:00Z",
+        "end": "2024-04-28T11:15:00Z",
+        "providerId": "65ff4be0fc13ae7d2050faa1",
+        "patientId": "65ff4b94fc13ae7bd250faaf",
+        "patientShortName": "A. Hob"
+    },
+    {
+        "id": "6621027ffc13ae0dc5a24277",
+        "type": "FOLLOW_UP",
+        "status": "SCHEDULED",
+        "start": "2024-04-02T15:45:00Z",
+        "end": "2024-04-02T16:15:00Z",
+        "providerId": "65ff4be0fc13ae7d2050fa9e",
+        "patientId": "65ff4b94fc13ae7bd250faa8",
+        "patientShortName": "D. Can"
+    },
+    {
+        "id": "6621027ffc13ae0dc5a24278",
+        "type": "FOLLOW_UP",
+        "status": "SCHEDULED",
+        "start": "2024-04-08T11:15:00Z",
+        "end": "2024-04-08T11:45:00Z",
+        "providerId": "65ff4be0fc13ae7d2050fa9d",
+        "patientId": "65ff4b94fc13ae7bd250fa9f",
+        "patientShortName": "P. Who"
+    },
+    {
+        "id": "6621027ffc13ae0dc5a24279",
+        "type": "FOLLOW_UP",
+        "status": "CANCELED",
+        "start": "2024-04-09T08:45:00Z",
+        "end": "2024-04-09T09:15:00Z",
+        "providerId": "65ff4be0fc13ae7d2050fa9e",
+        "patientId": "65ff4b94fc13ae7bd250fa9d",
+        "patientShortName": "M. Haw"
+    },
+    {
+        "id": "6621027ffc13ae0dc5a2427a",
+        "type": "URGENT",
+        "status": "CONFIRMED",
+        "start": "2024-04-01T10:15:00Z",
+        "end": "2024-04-01T10:45:00Z",
+        "providerId": "65ff4be0fc13ae7d2050faa1",
+        "patientId": "65ff4b94fc13ae7bd250faa2",
+        "patientShortName": "Y. Kad"
+    },
+    {
+        "id": "6621027ffc13ae0dc5a2427b",
+        "type": "URGENT",
+        "status": "CONFIRMED",
+        "start": "2024-04-31T11:45:00Z",
+        "end": "2024-04-31T12:15:00Z",
+        "providerId": "65ff4be0fc13ae7d2050faa0",
+        "patientId": "65ff4b94fc13ae7bd250faa6",
+        "patientShortName": "W. Rop"
+    },
+    {
+        "id": "6621027ffc13ae0dc5a2427c",
+        "type": "URGENT",
+        "status": "CONFIRMED",
+        "start": "2024-04-08T11:45:00Z",
+        "end": "2024-04-08T12:15:00Z",
+        "providerId": "65ff4be0fc13ae7d2050faa1",
+        "patientId": "65ff4b94fc13ae7bd250fa9d",
+        "patientShortName": "V. Dan"
+    },
+    {
+        "id": "6621027ffc13ae0dc5a2427d",
+        "type": "NEW_PATIENT",
+        "status": "SCHEDULED",
+        "start": "2024-04-13T09:15:00Z",
+        "end": "2024-04-13T09:45:00Z",
+        "providerId": "65ff4be0fc13ae7d2050faa1",
+        "patientId": "65ff4b94fc13ae7bd250faad",
+        "patientShortName": "X. Lov"
+    },
+    {
+        "id": "6621027ffc13ae0dc5a2427e",
+        "type": "URGENT",
+        "status": "SCHEDULED",
+        "start": "2024-04-19T10:45:00Z",
+        "end": "2024-04-19T11:15:00Z",
+        "providerId": "65ff4be0fc13ae7d2050fa9e",
+        "patientId": "65ff4b94fc13ae7bd250faa2",
+        "patientShortName": "Q. Cro"
+    },
+    {
+        "id": "6621027ffc13ae0dc5a2427f",
+        "type": "URGENT",
+        "status": "CANCELED",
+        "start": "2024-04-05T11:45:00Z",
+        "end": "2024-04-05T12:15:00Z",
+        "providerId": "65ff4be0fc13ae7d2050faa1",
+        "patientId": "65ff4b94fc13ae7bd250faa8",
+        "patientShortName": "R. Sis"
+    },
+    {
+        "id": "6621027ffc13ae0dc5a24280",
+        "type": "FOLLOW_UP",
+        "status": "COMPLETE",
+        "start": "2024-04-21T14:45:00Z",
+        "end": "2024-04-21T15:15:00Z",
+        "providerId": "65ff4be0fc13ae7d2050fa9e",
+        "patientId": "65ff4b94fc13ae7bd250faa7",
+        "patientShortName": "P. Fil"
+    },
+    {
+        "id": "6621027ffc13ae0dc5a24281",
+        "type": "ROUTINE",
+        "status": "COMPLETE",
+        "start": "2024-04-21T09:45:00Z",
+        "end": "2024-04-21T10:15:00Z",
+        "providerId": "65ff4be0fc13ae7d2050faa0",
+        "patientId": "65ff4b94fc13ae7bd250faaa",
+        "patientShortName": "E. Mar"
+    },
+    {
+        "id": "6621027ffc13ae0dc5a24282",
+        "type": "OFFICE_VISIT",
+        "status": "COMPLETE",
+        "start": "2024-04-12T16:15:00Z",
+        "end": "2024-04-12T16:45:00Z",
+        "providerId": "65ff4be0fc13ae7d2050faa0",
+        "patientId": "65ff4b94fc13ae7bd250fa9e",
+        "patientShortName": "C. Man"
+    },
+    {
+        "id": "6621027ffc13ae0dc5a24283",
+        "type": "NEW_PATIENT",
+        "status": "CONFIRMED",
+        "start": "2024-04-13T15:30:00Z",
+        "end": "2024-04-13T16:00:00Z",
+        "providerId": "65ff4be0fc13ae7d2050faa0",
+        "patientId": "65ff4b94fc13ae7bd250fa9f",
+        "patientShortName": "G. Guy"
+    },
+    {
+        "id": "6621027ffc13ae0dc5a24284",
+        "type": "FOLLOW_UP",
+        "status": "COMPLETE",
+        "start": "2024-04-03T13:15:00Z",
+        "end": "2024-04-03T13:45:00Z",
+        "providerId": "65ff4be0fc13ae7d2050fa9e",
+        "patientId": "65ff4b94fc13ae7bd250faa3",
+        "patientShortName": "Y. Mol"
+    },
+    {
+        "id": "6621027ffc13ae0dc5a24285",
+        "type": "URGENT",
+        "status": "SCHEDULED",
+        "start": "2024-04-30T13:15:00Z",
+        "end": "2024-04-30T13:45:00Z",
+        "providerId": "65ff4be0fc13ae7d2050faa2",
+        "patientId": "65ff4b94fc13ae7bd250faa0",
+        "patientShortName": "S. Cou"
+    },
+    {
+        "id": "6621027ffc13ae0dc5a24286",
+        "type": "FOLLOW_UP",
+        "status": "CONFIRMED",
+        "start": "2024-04-13T11:00:00Z",
+        "end": "2024-04-13T11:30:00Z",
+        "providerId": "65ff4be0fc13ae7d2050faa1",
+        "patientId": "65ff4b94fc13ae7bd250faa7",
+        "patientShortName": "U. Fig"
+    },
+    {
+        "id": "6621027ffc13ae0dc5a24287",
+        "type": "OFFICE_VISIT",
+        "status": "CONFIRMED",
+        "start": "2024-04-24T08:30:00Z",
+        "end": "2024-04-24T09:00:00Z",
+        "providerId": "65ff4be0fc13ae7d2050faa2",
+        "patientId": "65ff4b94fc13ae7bd250faac",
+        "patientShortName": "J. Wha"
+    },
+    {
+        "id": "6621027ffc13ae0dc5a24288",
+        "type": "ROUTINE",
+        "status": "SCHEDULED",
+        "start": "2024-04-26T10:30:00Z",
+        "end": "2024-04-26T11:00:00Z",
+        "providerId": "65ff4be0fc13ae7d2050fa9e",
+        "patientId": "65ff4b94fc13ae7bd250faaa",
+        "patientShortName": "N. Spu"
+    },
+    {
+        "id": "6621027ffc13ae0dc5a24289",
+        "type": "OFFICE_VISIT",
+        "status": "CANCELED",
+        "start": "2024-04-02T13:15:00Z",
+        "end": "2024-04-02T13:45:00Z",
+        "providerId": "65ff4be0fc13ae7d2050fa9e",
+        "patientId": "65ff4b94fc13ae7bd250faa7",
+        "patientShortName": "D. Map"
+    },
+    {
+        "id": "6621027ffc13ae0dc5a2428a",
+        "type": "ROUTINE",
+        "status": "COMPLETE",
+        "start": "2024-04-31T13:15:00Z",
+        "end": "2024-04-31T13:45:00Z",
+        "providerId": "65ff4be0fc13ae7d2050faa1",
+        "patientId": "65ff4b94fc13ae7bd250faad",
+        "patientShortName": "J. She"
+    },
+    {
+        "id": "6621027ffc13ae0dc5a2428b",
+        "type": "ROUTINE",
+        "status": "CANCELED",
+        "start": "2024-04-18T08:30:00Z",
+        "end": "2024-04-18T09:00:00Z",
+        "providerId": "65ff4be0fc13ae7d2050fa9e",
+        "patientId": "65ff4b94fc13ae7bd250fa9f",
+        "patientShortName": "W. Jee"
+    },
+    {
+        "id": "6621027ffc13ae0dc5a2428c",
+        "type": "FOLLOW_UP",
+        "status": "CANCELED",
+        "start": "2024-04-04T13:15:00Z",
+        "end": "2024-04-04T13:45:00Z",
+        "providerId": "65ff4be0fc13ae7d2050fa9e",
+        "patientId": "65ff4b94fc13ae7bd250faa2",
+        "patientShortName": "N. Mis"
+    },
+    {
+        "id": "6621027ffc13ae0dc5a2428d",
+        "type": "ROUTINE",
+        "status": "CANCELED",
+        "start": "2024-04-07T15:00:00Z",
+        "end": "2024-04-07T15:30:00Z",
+        "providerId": "65ff4be0fc13ae7d2050faa0",
+        "patientId": "65ff4b94fc13ae7bd250faa5",
+        "patientShortName": "F. Cre"
+    },
+    {
+        "id": "6621027ffc13ae0dc5a2428e",
+        "type": "NEW_PATIENT",
+        "status": "COMPLETE",
+        "start": "2024-04-05T15:15:00Z",
+        "end": "2024-04-05T15:45:00Z",
+        "providerId": "65ff4be0fc13ae7d2050faa1",
+        "patientId": "65ff4b94fc13ae7bd250fa9d",
+        "patientShortName": "B. Mac"
+    },
+    {
+        "id": "6621027ffc13ae0dc5a2428f",
+        "type": "ROUTINE",
+        "status": "SCHEDULED",
+        "start": "2024-04-06T09:00:00Z",
+        "end": "2024-04-06T09:30:00Z",
+        "providerId": "65ff4be0fc13ae7d2050fa9d",
+        "patientId": "65ff4b94fc13ae7bd250faac",
+        "patientShortName": "K. Jel"
+    },
+    {
+        "id": "6621027ffc13ae0dc5a24290",
+        "type": "OFFICE_VISIT",
+        "status": "COMPLETE",
+        "start": "2024-04-09T14:00:00Z",
+        "end": "2024-04-09T14:30:00Z",
+        "providerId": "65ff4be0fc13ae7d2050faa2",
+        "patientId": "65ff4b94fc13ae7bd250faa5",
+        "patientShortName": "X. Lal"
+    },
+    {
+        "id": "6621027ffc13ae0dc5a24291",
+        "type": "URGENT",
+        "status": "CONFIRMED",
+        "start": "2024-04-15T10:00:00Z",
+        "end": "2024-04-15T10:30:00Z",
+        "providerId": "65ff4be0fc13ae7d2050faa2",
+        "patientId": "65ff4b94fc13ae7bd250faab",
+        "patientShortName": "P. Gir"
+    },
+    {
+        "id": "6621027ffc13ae0dc5a24292",
+        "type": "OFFICE_VISIT",
+        "status": "SCHEDULED",
+        "start": "2024-04-19T15:15:00Z",
+        "end": "2024-04-19T15:45:00Z",
+        "providerId": "65ff4be0fc13ae7d2050fa9e",
+        "patientId": "65ff4b94fc13ae7bd250faad",
+        "patientShortName": "Y. Blo"
+    },
+    {
+        "id": "6621027ffc13ae0dc5a24293",
+        "type": "NEW_PATIENT",
+        "status": "CANCELED",
+        "start": "2024-04-06T08:30:00Z",
+        "end": "2024-04-06T09:00:00Z",
+        "providerId": "65ff4be0fc13ae7d2050faa1",
+        "patientId": "65ff4b94fc13ae7bd250faa5",
+        "patientShortName": "N. Wil"
+    },
+    {
+        "id": "6621027ffc13ae0dc5a24294",
+        "type": "URGENT",
+        "status": "SCHEDULED",
+        "start": "2024-04-03T08:45:00Z",
+        "end": "2024-04-03T09:15:00Z",
+        "providerId": "65ff4be0fc13ae7d2050faa1",
+        "patientId": "65ff4b94fc13ae7bd250faaa",
+        "patientShortName": "Q. She"
+    },
+    {
+        "id": "6621027ffc13ae0dc5a24295",
+        "type": "FOLLOW_UP",
+        "status": "COMPLETE",
+        "start": "2024-04-11T14:30:00Z",
+        "end": "2024-04-11T15:00:00Z",
+        "providerId": "65ff4be0fc13ae7d2050fa9d",
+        "patientId": "65ff4b94fc13ae7bd250faa0",
+        "patientShortName": "Z. Gar"
+    },
+    {
+        "id": "6621027ffc13ae0dc5a24296",
+        "type": "ROUTINE",
+        "status": "CONFIRMED",
+        "start": "2024-04-12T16:30:00Z",
+        "end": "2024-04-12T17:00:00Z",
+        "providerId": "65ff4be0fc13ae7d2050fa9e",
+        "patientId": "65ff4b94fc13ae7bd250faa8",
+        "patientShortName": "W. Abr"
+    },
+    {
+        "id": "6621027ffc13ae0dc5a24297",
+        "type": "OFFICE_VISIT",
+        "status": "CONFIRMED",
+        "start": "2024-04-06T13:45:00Z",
+        "end": "2024-04-06T14:15:00Z",
+        "providerId": "65ff4be0fc13ae7d2050fa9d",
+        "patientId": "65ff4b94fc13ae7bd250faa9",
+        "patientShortName": "R. Koe"
+    },
+    {
+        "id": "6621027ffc13ae0dc5a24298",
+        "type": "URGENT",
+        "status": "SCHEDULED",
+        "start": "2024-04-06T10:15:00Z",
+        "end": "2024-04-06T10:45:00Z",
+        "providerId": "65ff4be0fc13ae7d2050fa9e",
+        "patientId": "65ff4b94fc13ae7bd250faa5",
+        "patientShortName": "T. Gib"
+    },
+    {
+        "id": "6621027ffc13ae0dc5a24299",
+        "type": "URGENT",
+        "status": "CANCELED",
+        "start": "2024-04-16T08:15:00Z",
+        "end": "2024-04-16T08:45:00Z",
+        "providerId": "65ff4be0fc13ae7d2050faa2",
+        "patientId": "65ff4b94fc13ae7bd250faaf",
+        "patientShortName": "K. Hen"
+    },
+    {
+        "id": "6621027ffc13ae0dc5a2429a",
+        "type": "URGENT",
+        "status": "CONFIRMED",
+        "start": "2024-04-06T08:00:00Z",
+        "end": "2024-04-06T08:30:00Z",
+        "providerId": "65ff4be0fc13ae7d2050fa9e",
+        "patientId": "65ff4b94fc13ae7bd250faa5",
+        "patientShortName": "G. Mau"
+    },
+    {
+        "id": "6621027ffc13ae0dc5a2429b",
+        "type": "ROUTINE",
+        "status": "COMPLETE",
+        "start": "2024-04-22T08:15:00Z",
+        "end": "2024-04-22T08:45:00Z",
+        "providerId": "65ff4be0fc13ae7d2050fa9d",
+        "patientId": "65ff4b94fc13ae7bd250faaa",
+        "patientShortName": "F. Str"
+    },
+    {
+        "id": "6621027ffc13ae0dc5a2429c",
+        "type": "ROUTINE",
+        "status": "SCHEDULED",
+        "start": "2024-04-09T10:45:00Z",
+        "end": "2024-04-09T11:15:00Z",
+        "providerId": "65ff4be0fc13ae7d2050faa2",
+        "patientId": "65ff4b94fc13ae7bd250fa9d",
+        "patientShortName": "W. Lab"
+    },
+    {
+        "id": "6621027ffc13ae0dc5a2429d",
+        "type": "URGENT",
+        "status": "CANCELED",
+        "start": "2024-04-12T16:45:00Z",
+        "end": "2024-04-12T17:15:00Z",
+        "providerId": "65ff4be0fc13ae7d2050faa2",
+        "patientId": "65ff4b94fc13ae7bd250faaf",
+        "patientShortName": "O. Lam"
+    },
+    {
+        "id": "6621027ffc13ae0dc5a2429e",
+        "type": "ROUTINE",
+        "status": "CONFIRMED",
+        "start": "2024-04-15T09:45:00Z",
+        "end": "2024-04-15T10:15:00Z",
+        "providerId": "65ff4be0fc13ae7d2050faa0",
+        "patientId": "65ff4b94fc13ae7bd250faab",
+        "patientShortName": "X. Due"
+    },
+    {
+        "id": "6621027ffc13ae0dc5a2429f",
+        "type": "OFFICE_VISIT",
+        "status": "SCHEDULED",
+        "start": "2024-04-22T15:00:00Z",
+        "end": "2024-04-22T15:30:00Z",
+        "providerId": "65ff4be0fc13ae7d2050fa9e",
+        "patientId": "65ff4b94fc13ae7bd250faac",
+        "patientShortName": "C. Ale"
+    }
+]
