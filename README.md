@@ -1,45 +1,22 @@
-# ScheduleVue
+# Appointment Scheduler Project (Vue-Pinia)
+This is an in progress sample project to demonstrate my knowledge and abilities with Vue and Pinia. I specifically chose these technologies because I wanted to learn more about them. Currently, this project is using mock data retrieved from a JSON file. A backend will be created in the future.
 
-This template should help get you started developing with Vue 3 in Vite.
+## Getting Started
+In terminal or command prompt, run 'npm install` then `npm run dev`.
 
-## Recommended IDE Setup
+## Current Features
+GOAL: An application that manages appointments, patients, providers and users for a medical facility. This application will have the ability to create, read, update and delete appointments, users and patients.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+### Backend
+* TODO
 
-## Type Support for `.vue` Imports in TS
+### Frontend
+* Display appointments in day view calendar.
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
-npm run test:unit
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+## Current Todo and In Progess Items
+Frontend application
+  * Appointments
+    * Calendar to display all appointments for facility within a calendar month (in progress).
+    * View appointment details.
+    * Update appointment details.
+    * Create new appointment. 
