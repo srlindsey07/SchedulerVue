@@ -5,16 +5,21 @@ import type { User } from '@/models/user-models'
 import { computed } from 'vue'
 import type { Appointment } from '@/models/appointment-models'
 import AppCalendarAppt from './AppCalendarAppt.vue'
+import AppButtonGroup from '../AppButton/AppButtonGroup.vue'
+import AppButton from '../AppButton/AppButton.vue'
 
 const props = withDefaults(
     defineProps<{
         providers: User[]
         appointments: Appointment[]
+        selectedDate: Moment
     }>(),
     {},
 )
+const emit = defineEmits(['update:selectedDate'])
 const minuteRows = 1440
-const minuteRowClass = `grid-rows-[1.75rem repeat(${minuteRows}, minmax(0, 1fr))]`
+
+const dateSelected = computed(() => props.selectedDate)
 
 const halfHourIntervals = computed(() => {
     let intervals: Moment[] = []
@@ -57,6 +62,10 @@ function getTimeSpan(apptStart: Moment, apptEnd: Moment): string {
     const minuteDiff = moment(apptEnd).diff(moment(apptStart), 'minutes')
     return `row-span-${minuteDiff}`
 }
+
+function handleDateChange(newDate: Moment): void {
+    emit('update:selectedDate', newDate)
+}
 </script>
 
 <template>
@@ -65,7 +74,36 @@ function getTimeSpan(apptStart: Moment, apptEnd: Moment): string {
         <div
             className="text-lg font-bold bg-slate-100 px flex justify-between items-center basis-20 shrink-0 grow-0 rounded-t-xl"
         >
-            <div>{{ moment().format(DateFormat.DISPLAY) }}</div>
+            <div>{{ dateSelected.format(DateFormat.DISPLAY) }}</div>
+
+            <div>
+                <AppButtonGroup variant="outline">
+                    <AppButton
+                        label="Previous"
+                        :showLabel="false"
+                        :icon="['fas', 'chevron-left']"
+                        @click="
+                            handleDateChange(
+                                moment(selectedDate).subtract(1, 'days'),
+                            )
+                        "
+                    />
+                    <AppButton
+                        label="Today"
+                        @click="handleDateChange(moment())"
+                    />
+                    <AppButton
+                        label="Next"
+                        :showLabel="false"
+                        :icon="['fas', 'chevron-right']"
+                        @click="
+                            handleDateChange(
+                                moment(selectedDate).add(1, 'days'),
+                            )
+                        "
+                    />
+                </AppButtonGroup>
+            </div>
         </div>
 
         <!-- calendar body -->

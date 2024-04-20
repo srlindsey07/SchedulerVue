@@ -29,6 +29,6 @@ body {
     }
     .button-group-outline .button,
     .button-outline {
-        @apply border-slate-400 text-slate-800 hover:bg-slate-100 focus:bg-slate-200 focus:shadow;
+        @apply bg-white border-slate-400 text-slate-800 hover:bg-slate-100 focus:bg-slate-200 focus:shadow;
     }
 }

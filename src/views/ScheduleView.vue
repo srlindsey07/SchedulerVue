@@ -7,6 +7,7 @@ import AppButtonGroup from '@/components/AppButton/AppButtonGroup.vue'
 import { useUsersStore } from '@/stores/users-store'
 import { storeToRefs } from 'pinia'
 import moment, { type Moment } from 'moment'
+import { computed, ref, watch } from 'vue'
 
 const usersStore = useUsersStore()
 const apptsStore = useAppointmentsStore()
@@ -19,13 +20,25 @@ const { fetchAppointments } = apptsStore
 const { providers } = storeToRefs(usersStore)
 const { appointments } = storeToRefs(apptsStore)
 
+const selectedDate = ref(moment())
+
 fetchUsers()
-fetchAppointments(moment().startOf('day'), moment().endOf('day'))
+watch(
+    selectedDate,
+    (newValue) => {
+        fetchAppointments(
+            moment(newValue).startOf('day'),
+            moment(newValue).endOf('day'),
+        )
+    },
+    { immediate: true },
+)
 </script>
 
 <template>
     <AppCalendar
         :providers="providers"
         :appointments="appointments"
+        v-model:selectedDate="selectedDate"
     />
 </template>

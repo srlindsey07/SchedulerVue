@@ -45,7 +45,7 @@ const props = withDefaults(
             v-if="!!icon"
             :icon="icon"
         />
-        {{ label }}
+        {{ showLabel ? label : '' }}
     </button>
 </template>
 
