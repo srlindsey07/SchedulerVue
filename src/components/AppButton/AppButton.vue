@@ -32,18 +32,27 @@ const props = withDefaults(
         showLabel: true,
     },
 )
+
+const buttonVariant = computed(() => ({
+    'pl-5': props.showLabel,
+    'button-default': props.variant && props.variant === 'default',
+    'button-primary': props.variant && props.variant === 'primary',
+    'button-text': props.variant && props.variant === 'text',
+    'button-outline': props.variant && props.variant === 'outline',
+}))
 </script>
 
 <template>
     <button
         type="button"
-        class="flex justify-center items-center px font-medium outline-none border h-11 *:h-6 button"
-        :class="variant ? `button-${variant}` : ''"
+        class="flex justify-center items-center px-6 font-medium outline-none border h-11 *:h-5 button"
+        :class="buttonVariant"
         :aria-title="!showLabel ? label : undefined"
     >
         <FontAwesomeIcon
             v-if="!!icon"
             :icon="icon"
+            :class="{ 'mr-2': showLabel }"
         />
         {{ showLabel ? label : '' }}
     </button>

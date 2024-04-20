@@ -26,7 +26,7 @@ const bgColor = computed(() => {
 
 <template>
     <li
-        class="mx-1 p-2 rounded-xl text-sm relative overflow-auto flex flex-col"
+        class="mx-1 p-2 rounded-xl text-body-sm relative overflow-auto flex flex-col"
         :class="`${bgColor} ${appointment.type}`"
     >
         <span>{{ appointment.start.format(TimeFormat.DISPLAY) }}</span>

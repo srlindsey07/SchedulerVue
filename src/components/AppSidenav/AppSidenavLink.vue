@@ -30,7 +30,7 @@ const props = withDefaults(
             />
         </div>
 
-        <span class="text-sm font-medium mt-1">{{ props.label }}</span>
+        <span class="text-body-sm font-medium mt-1">{{ props.label }}</span>
     </RouterLink>
 </template>
 

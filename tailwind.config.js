@@ -54,7 +54,20 @@ const smoke = {
 export default {
     content: ['./index.html', './src/**/*.vue'],
     theme: {
+        fontSize: {
+            'heading-4': '1.125rem', // 18px
+            'heading-3': '1.5rem', // 24px
+            'heading-2': '1.75rem', // 28px
+            'heading-1': '2rem', // 32px,
+            'body-xs': '0.75rem', // 12px
+            'body-sm': '0.875rem', // 14px
+            'body-md': '1rem', // 16px
+            'body-lg': '1.125px', // 18px
+        },
         extend: {
+            backdropBlur: {
+                xs: '2px',
+            },
             colors: {
                 primary: primary,
                 secondary: secondary,
@@ -97,6 +110,7 @@ export default {
         { pattern: /row-span-./ },
         { pattern: /^row-span-(1[0-6]|[2-9])$/ },
         { pattern: /border-./ },
+        { pattern: /max-w-./ },
         { pattern: /bg-./ },
         { pattern: /text-./ },
     ],

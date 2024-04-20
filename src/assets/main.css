@@ -2,8 +2,41 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-    @apply text-slate-800;
+@layer base {
+    :root {
+        @apply text-slate-800 text-body-md;
+    }
+
+    h1,
+    .heading-1,
+    h2,
+    .heading-2,
+    h3,
+    .heading-3,
+    h4,
+    .heading-4 {
+        @apply font-medium;
+    }
+
+    h1,
+    .heading-1 {
+        @apply text-heading-1;
+    }
+
+    h2,
+    .heading-2 {
+        @apply text-heading-2;
+    }
+
+    h3,
+    .heading-3 {
+        @apply text-heading-2;
+    }
+
+    h4,
+    .heading-4 {
+        @apply text-heading-3;
+    }
 }
 
 @layer components {

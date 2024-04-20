@@ -2,11 +2,15 @@
 import moment, { type Moment } from 'moment'
 import { DateFormat, TimeFormat } from '@/models/calendar-models'
 import type { User } from '@/models/user-models'
-import { computed } from 'vue'
+import { computed, ref } from 'vue'
 import type { Appointment } from '@/models/appointment-models'
 import AppCalendarAppt from './AppCalendarAppt.vue'
 import AppButtonGroup from '../AppButton/AppButtonGroup.vue'
 import AppButton from '../AppButton/AppButton.vue'
+import AppDialog from '../AppDialog/AppDialog.vue'
+import AppDialogHeader from '../AppDialog/AppDialogHeader.vue'
+import AppDialogFooter from '../AppDialog/AppDialogFooter.vue'
+import AppDialogActions from '../AppDialog/AppDialogActions.vue'
 
 const props = withDefaults(
     defineProps<{
@@ -16,6 +20,7 @@ const props = withDefaults(
     }>(),
     {},
 )
+const dialogOpen = ref(false)
 const emit = defineEmits(['update:selectedDate'])
 const minuteRows = 1440
 
@@ -69,14 +74,38 @@ function handleDateChange(newDate: Moment): void {
 </script>
 
 <template>
+    <AppDialog v-model:open="dialogOpen">
+        <AppDialogHeader
+            title="Dialog Title"
+            subtitle="This is a dialog subtitle"
+        />
+
+        <div>This is the dialog body.</div>
+
+        <AppDialogFooter>
+            <AppDialogActions>
+                <AppButton
+                    label="Cancel"
+                    variant="text"
+                    @click="dialogOpen = false"
+                />
+                <AppButton
+                    label="Submit"
+                    variant="text"
+                />
+            </AppDialogActions>
+        </AppDialogFooter>
+    </AppDialog>
     <div className="flex flex-col relative border h-full overflow-hidden">
         <!-- calendar header -->
         <div
-            className="text-lg font-bold bg-slate-100 px flex justify-between items-center basis-20 shrink-0 grow-0 rounded-t-xl"
+            className="bg-slate-100 px flex justify-between items-center basis-20 shrink-0 grow-0"
         >
-            <div>{{ dateSelected.format(DateFormat.DISPLAY) }}</div>
+            <div class="heading-4">
+                {{ dateSelected.format(DateFormat.DISPLAY) }}
+            </div>
 
-            <div>
+            <div class="flex flex-row">
                 <AppButtonGroup variant="outline">
                     <AppButton
                         label="Previous"
@@ -103,6 +132,14 @@ function handleDateChange(newDate: Moment): void {
                         "
                     />
                 </AppButtonGroup>
+
+                <AppButton
+                    label="Create"
+                    :icon="['fas', 'plus']"
+                    variant="primary"
+                    class="ml"
+                    @click="dialogOpen = true"
+                />
             </div>
         </div>
 
@@ -161,7 +198,7 @@ function handleDateChange(newDate: Moment): void {
                                 >
                                     <!-- {{  interval }} -->
                                     <div
-                                        class="w-10 text-xs font-bold text-right text-gray-500 -ml-12.5 -mt-3.5"
+                                        class="w-10 text-body-xs font-medium text-right text-gray-500 -ml-12.5 -mt-3.5"
                                     >
                                         {{ hourLabel(interval) }}
                                     </div>

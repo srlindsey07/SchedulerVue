@@ -4,6 +4,7 @@ import { faCalendarDays } from '@fortawesome/free-solid-svg-icons/faCalendarDays
 import { faChevronLeft } from '@fortawesome/free-solid-svg-icons/faChevronLeft'
 import { faChevronRight } from '@fortawesome/free-solid-svg-icons/faChevronRight'
 import { faHospitalUser } from '@fortawesome/free-solid-svg-icons/faHospitalUser'
+import { faPlus } from '@fortawesome/free-solid-svg-icons/faPlus'
 import { faUserDoctor } from '@fortawesome/free-solid-svg-icons/faUserDoctor'
 import { faUsers } from '@fortawesome/free-solid-svg-icons/faUsers'
 
@@ -15,4 +16,5 @@ library.add(
     faUsers,
     faChevronLeft,
     faChevronRight,
+    faPlus,
 )
