@@ -4,25 +4,20 @@ const props = withDefaults(
     defineProps<{
         icon: string[]
         label: string
-        link: string
-        disabled?: boolean
+        active: boolean
     }>(),
-    {
-        disabled: false,
-    },
+    {},
 )
 </script>
 
 <template>
-    <RouterLink
-        active-class="active"
-        :to="$props.link"
-        :disabled="!!disabled ? 'disabled' : undefined"
-        class="group flex flex-col items-center mb-5 outline-none"
-        :class="{ 'opacity-50 pointer-events-none': !!disabled }"
+    <button
+        type="button"
+        class="group flex flex-col items-center mb-5 outline-none disabled:opacity-50"
+        :class="{ active: active }"
     >
         <div
-            class="icon-container py-1.5 min-w-14 rounded-full text-center bg-primary-800 bg-transition group-hover:bg-primary-600 group-focus:bg-primary-600"
+            class="icon-container py-1.5 min-w-14 rounded-full text-center bg-primary-800 bg-transition group-focus:bg-primary-600"
         >
             <FontAwesomeIcon
                 :icon="icon"
@@ -31,10 +26,13 @@ const props = withDefaults(
         </div>
 
         <span class="text-body-sm font-medium mt-1">{{ props.label }}</span>
-    </RouterLink>
+    </button>
 </template>
 
 <style scoped>
+button:not(:disabled):hover .icon-container {
+    @apply bg-primary-600;
+}
 .active .icon-container {
     @apply bg-primary-600;
 }

@@ -7,10 +7,7 @@ import type { Appointment } from '@/models/appointment-models'
 import AppCalendarAppt from './AppCalendarAppt.vue'
 import AppButtonGroup from '../AppButton/AppButtonGroup.vue'
 import AppButton from '../AppButton/AppButton.vue'
-import AppDialog from '../AppDialog/AppDialog.vue'
-import AppDialogHeader from '../AppDialog/AppDialogHeader.vue'
-import AppDialogFooter from '../AppDialog/AppDialogFooter.vue'
-import AppDialogActions from '../AppDialog/AppDialogActions.vue'
+import AddAppointmentDialog from '../AddAppointmentDialog.vue'
 
 const props = withDefaults(
     defineProps<{
@@ -74,28 +71,11 @@ function handleDateChange(newDate: Moment): void {
 </script>
 
 <template>
-    <AppDialog v-model:open="dialogOpen">
-        <AppDialogHeader
-            title="Dialog Title"
-            subtitle="This is a dialog subtitle"
-        />
+    <AddAppointmentDialog
+        v-model:dialogOpen="dialogOpen"
+        id="#addAppointmentDialog"
+    />
 
-        <div>This is the dialog body.</div>
-
-        <AppDialogFooter>
-            <AppDialogActions>
-                <AppButton
-                    label="Cancel"
-                    variant="text"
-                    @click="dialogOpen = false"
-                />
-                <AppButton
-                    label="Submit"
-                    variant="text"
-                />
-            </AppDialogActions>
-        </AppDialogFooter>
-    </AppDialog>
     <div className="flex flex-col relative border h-full overflow-hidden">
         <!-- calendar header -->
         <div
@@ -139,6 +119,8 @@ function handleDateChange(newDate: Moment): void {
                     variant="primary"
                     class="ml"
                     @click="dialogOpen = true"
+                    aria-haspopup="true"
+                    aria-controls="addAppointmentDialog"
                 />
             </div>
         </div>

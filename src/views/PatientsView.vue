@@ -1,0 +1,1 @@
+<template>Patients View</template>
