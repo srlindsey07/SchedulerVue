@@ -29,7 +29,7 @@ watch(
 <template>
     <dialog
         ref="dialog"
-        class="rounded-xl w-full max-w-xl backdrop:bg-smoke-300 backdrop:backdrop-blur-xs"
+        class="rounded-xl w-full max-w-xl overflow-visible backdrop:bg-smoke-300 backdrop:backdrop-blur-xs"
         :class="dialogSize"
     >
         <div class="dialog-container p flex flex-col">

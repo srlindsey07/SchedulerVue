@@ -21,3 +21,5 @@ export class ContactInfo {
         this.mobile = mobile
     }
 }
+
+export type SelectFieldOption = { value: string; label: string }

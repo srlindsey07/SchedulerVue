@@ -26,7 +26,7 @@ const errors = computed(() => props.fieldState.$errors)
 const hasErrors = computed(() => props.fieldState.$errors.length > 0)
 
 const emitValue = (e: Event): void => {
-    emit('update:model', e?.target?.value)
+    emit('update:model', (e.target as HTMLInputElement).value)
 }
 </script>
 
@@ -40,7 +40,7 @@ const emitValue = (e: Event): void => {
         :required="required"
     >
         <input
-            class="w-full outline-none p-3.5 pt-4 cursor-pointer disabled:pointer-events-none disabled:bg-slate-100"
+            class="peer w-full outline-none p-3.5 pt-4 cursor-pointer disabled:pointer-events-none disabled:bg-slate-100"
             :id="id"
             :type="type"
             :value="model"

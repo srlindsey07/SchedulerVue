@@ -42,7 +42,7 @@ function handleSubmit() {
             label="Appointment Type"
             id="apptType"
             :fieldState="formState.type"
-            v-model:model="formData.name"
+            v-model:model="formData.type"
             :required="true"
             hint="LOL IDK"
             :options="[

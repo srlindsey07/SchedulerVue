@@ -21,7 +21,7 @@ const hasErrors: ComputedRef<boolean | undefined> = computed(
     () => props.errors && props.errors.length > 0,
 )
 const firstError: ComputedRef<ErrorObject | undefined> = computed(() =>
-    hasErrors.value ? props.errors[0] : undefined,
+    props.errors?.length ? props.errors[0] : undefined,
 )
 </script>
 

@@ -1,6 +1,7 @@
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fas } from '@fortawesome/free-solid-svg-icons'
 import { faCalendarDays } from '@fortawesome/free-solid-svg-icons/faCalendarDays'
+import { faCheck } from '@fortawesome/free-solid-svg-icons/faCheck'
 import { faChevronLeft } from '@fortawesome/free-solid-svg-icons/faChevronLeft'
 import { faChevronRight } from '@fortawesome/free-solid-svg-icons/faChevronRight'
 import { faHospitalUser } from '@fortawesome/free-solid-svg-icons/faHospitalUser'
@@ -17,4 +18,5 @@ library.add(
     faChevronLeft,
     faChevronRight,
     faPlus,
+    faCheck,
 )
