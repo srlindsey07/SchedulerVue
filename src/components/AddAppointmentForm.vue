@@ -44,7 +44,6 @@ function handleSubmit() {
             :fieldState="formState.type"
             v-model:model="formData.type"
             :required="true"
-            hint="LOL IDK"
             :options="[
                 { value: 'test', label: 'Test 1' },
                 { value: 'test2', label: 'Test 2' },
