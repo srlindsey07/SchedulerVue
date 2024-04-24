@@ -30,10 +30,9 @@ const bgColor = computed(() => {
     >
         <span>{{ appointment.start.format(TimeFormat.DISPLAY) }}</span>
         <span>{{ appointment.patientShortName }}</span>
-        <span>More text</span>
         <span class="sr-only"
-            >{{ appointment.type }} appointment with {{
-        }}</span>
+            >{{ appointment.type }} appointment with {{ providerName }}</span
+        >
     </li>
 </template>
 

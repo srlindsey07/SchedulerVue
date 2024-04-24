@@ -81,7 +81,7 @@ function handleDateChange(newDate: Moment): void {
         <div
             className="bg-slate-100 px flex justify-between items-center basis-20 shrink-0 grow-0"
         >
-            <div class="heading-4">
+            <div class="calendar-header heading-4">
                 {{ dateSelected.format(DateFormat.DISPLAY) }}
             </div>
 

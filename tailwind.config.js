@@ -1,5 +1,4 @@
 /** @type {import('tailwindcss').Config} */
-// import * as colors from 'tailwindcss/colors'
 import { blue, lime, slate } from 'tailwindcss/colors'
 
 // contrast values ensure proper text contrast if used with the same key on bg.
