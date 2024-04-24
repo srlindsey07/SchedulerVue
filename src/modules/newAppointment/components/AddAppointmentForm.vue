@@ -1,11 +1,8 @@
 <script setup lang="ts">
 import { reactive } from 'vue'
-import type { Data, Rules } from 'vue-tiny-validate'
-import useValidate from 'vue-tiny-validate'
-import AppTextField from './AppFormFields/AppTextField.vue'
-import AppSelectField from './AppFormFields/AppSelectField.vue'
-import { useForm } from '@vorms/core'
-import { required, minLength, email, maxLength } from '@vuelidate/validators'
+import AppTextField from '@/shared/components/AppFormFields/AppTextField.vue'
+import AppSelectField from '@/shared/components/AppFormFields/AppSelectField.vue'
+import { required, minLength } from '@vuelidate/validators'
 import useVuelidate from '@vuelidate/core'
 
 interface IAddAppointmentForm {

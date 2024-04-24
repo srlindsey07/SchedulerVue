@@ -1,17 +1,18 @@
 /** @type {import('tailwindcss').Config} */
-import * as colors from 'tailwindcss/colors'
+// import * as colors from 'tailwindcss/colors'
+import { blue, lime, slate } from 'tailwindcss/colors'
 
 // contrast values ensure proper text contrast if used with the same key on bg.
 // EX: <div className='bg-primary-800 text-primary-contrast-800'></div>
 const primary = {
-    ...colors.blue,
-    DEFAULT: colors.blue[800],
+    ...blue,
+    DEFAULT: blue[800],
     contrast: {
-        50: colors.slate[800],
-        100: colors.slate[800],
-        200: colors.slate[800],
-        300: colors.slate[800],
-        400: colors.slate[800],
+        50: slate[800],
+        100: slate[800],
+        200: slate[800],
+        300: slate[800],
+        400: slate[800],
         500: '#FFFFFF',
         600: '#FFFFFF',
         700: '#FFFFFF',
@@ -22,16 +23,16 @@ const primary = {
 }
 
 const secondary = {
-    ...colors.lime,
-    DEFAULT: colors.lime[500],
+    ...lime,
+    DEFAULT: lime[500],
     contrast: {
-        50: colors.slate[800],
-        100: colors.slate[800],
-        200: colors.slate[800],
-        300: colors.slate[800],
-        400: colors.slate[800],
-        DEFAULT: colors.slate[800],
-        600: colors.slate[800],
+        50: slate[800],
+        100: slate[800],
+        200: slate[800],
+        300: slate[800],
+        400: slate[800],
+        DEFAULT: slate[800],
+        600: slate[800],
         700: '#FFFFFF',
         800: '#FFFFFF',
         900: '#FFFFFF',

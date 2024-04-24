@@ -1,8 +1,7 @@
 <script setup lang="ts">
 import { RouterView } from 'vue-router'
-import AppSidenav from './components/AppSidenav/AppSidenav.vue'
-import AppTopBar from './components/AppTopBar/AppTopBar.vue'
-
+import AppSidenav from './shared/components/AppSidenav/AppSidenav.vue'
+import AppTopBar from './shared/components/AppTopBar/AppTopBar.vue'
 import './assets/icon-library'
 </script>
 

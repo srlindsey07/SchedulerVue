@@ -2,9 +2,9 @@ import {
     Appointment,
     AppointmentStatus,
     AppointmentType,
-} from '@/models/appointment-models'
+} from '@/shared/types/appointment-models'
 import { defineStore } from 'pinia'
-import { computed, ref } from 'vue'
+import { ref } from 'vue'
 
 import appointmentData from '@/data/appointments.json'
 import moment, { type Moment } from 'moment'

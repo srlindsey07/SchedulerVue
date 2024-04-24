@@ -4,9 +4,8 @@ import {
     Appointment,
     AppointmentType,
     appointmentTypeColorMap,
-} from '@/models/appointment-models'
-import moment, { type Moment } from 'moment'
-import { DateFormat, TimeFormat } from '@/models/calendar-models'
+} from '@/shared/types/appointment-models'
+import { TimeFormat } from '@/shared/types/calendar-models'
 
 const props = withDefaults(
     defineProps<{

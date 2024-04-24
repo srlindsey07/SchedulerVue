@@ -9,7 +9,7 @@ import {
 } from 'vue'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import AppBaseFormField from './AppBaseFormField.vue'
-import type { SelectFieldOption } from '@/models/shared-models'
+import type { SelectFieldOption } from '@/shared/types/shared-models'
 
 const props = withDefaults(
     defineProps<{

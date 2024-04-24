@@ -1,13 +1,13 @@
 <script setup lang="ts">
 import moment, { type Moment } from 'moment'
-import { DateFormat, TimeFormat } from '@/models/calendar-models'
-import type { User } from '@/models/user-models'
+import { DateFormat, TimeFormat } from '@/shared/types/calendar-models'
+import type { User } from '@/shared/types/user-models'
 import { computed, ref } from 'vue'
-import type { Appointment } from '@/models/appointment-models'
+import type { Appointment } from '@/shared/types/appointment-models'
 import AppCalendarAppt from './AppCalendarAppt.vue'
 import AppButtonGroup from '../AppButton/AppButtonGroup.vue'
 import AppButton from '../AppButton/AppButton.vue'
-import AddAppointmentDialog from '../AddAppointmentDialog.vue'
+import AddAppointmentDialog from '@/modules/newAppointment/components/AddAppointmentDialog.vue'
 
 const props = withDefaults(
     defineProps<{

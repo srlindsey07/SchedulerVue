@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { computed } from 'vue'
-import AppFormFieldHint from './AppFormFieldHint.vue'
 import AppBaseFormField from './AppBaseFormField.vue'
 
 const props = withDefaults(
