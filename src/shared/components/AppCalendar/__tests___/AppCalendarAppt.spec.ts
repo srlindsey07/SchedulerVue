@@ -37,7 +37,6 @@ describe('AppCalendarAppt', () => {
                     providerName: provider,
                 },
             })
-            console.log(wrapper.classes())
             expect(wrapper.classes()).toContain('bg-sky-100')
             expect(wrapper.classes()).toContain('text-sky-700')
             expect(wrapper.classes()).toContain('border-sky-200')
@@ -57,7 +56,6 @@ describe('AppCalendarAppt', () => {
                     providerName: provider,
                 },
             })
-            console.log(wrapper.classes())
             expect(wrapper.classes()).toContain('bg-orange-100')
             expect(wrapper.classes()).toContain('text-orange-700')
             expect(wrapper.classes()).toContain('border-orange-200')
@@ -77,7 +75,6 @@ describe('AppCalendarAppt', () => {
                     providerName: provider,
                 },
             })
-            console.log(wrapper.classes())
             expect(wrapper.classes()).toContain('bg-lime-100')
             expect(wrapper.classes()).toContain('text-lime-700')
             expect(wrapper.classes()).toContain('border-lime-200')
@@ -97,7 +94,6 @@ describe('AppCalendarAppt', () => {
                     providerName: provider,
                 },
             })
-            console.log(wrapper.classes())
             expect(wrapper.classes()).toContain('bg-violet-100')
             expect(wrapper.classes()).toContain('text-violet-700')
             expect(wrapper.classes()).toContain('border-violet-200')
@@ -117,7 +113,6 @@ describe('AppCalendarAppt', () => {
                     providerName: provider,
                 },
             })
-            console.log(wrapper.classes())
             expect(wrapper.classes()).toContain('bg-pink-100')
             expect(wrapper.classes()).toContain('text-pink-700')
             expect(wrapper.classes()).toContain('border-pink-200')
@@ -137,7 +132,6 @@ describe('AppCalendarAppt', () => {
                     providerName: provider,
                 },
             })
-            console.log(wrapper.classes())
             expect(wrapper.classes()).toContain('bg-slate-100')
             expect(wrapper.classes()).toContain('text-slate-700')
             expect(wrapper.classes()).toContain('border-slate-200')

@@ -1,5 +1,5 @@
 import { describe, it, expect, beforeEach } from 'vitest'
-import { mount, VueWrapper } from '@vue/test-utils'
+import { shallowMount, VueWrapper } from '@vue/test-utils'
 import AppCalendar from '../AppCalendar.vue'
 import { mockProviders } from '@/data/mock-users'
 import { mockAppointments } from '@/data/mock-appointments'
@@ -10,12 +10,13 @@ describe('AppCalendar', () => {
     let wrapper: VueWrapper
 
     beforeEach(() => {
-        wrapper = mount(AppCalendar, {
+        wrapper = shallowMount(AppCalendar, {
             props: {
                 providers: mockProviders,
                 appointments: mockAppointments,
                 selectedDate: moment(),
             },
+            global: {},
         })
     })
 

@@ -9,34 +9,36 @@ export enum RouteName {
     PATIENTS = 'patients',
 }
 
+export const routes = [
+    {
+        path: '/',
+        name: RouteName.HOME,
+        redirect: (to) => {
+            return RouteName.SCHEDULE
+        },
+    },
+    {
+        path: '/schedule',
+        name: RouteName.SCHEDULE,
+        component: ScheduleView,
+    },
+    {
+        path: '/providers',
+        name: RouteName.PROVIDERS,
+        redirect: (to) => {
+            return RouteName.SCHEDULE
+        },
+    },
+    {
+        path: '/patients',
+        name: RouteName.PATIENTS,
+        component: PatientsView,
+    },
+]
+
 const router = createRouter({
     history: createWebHistory(import.meta.env.BASE_URL),
-    routes: [
-        {
-            path: '/',
-            name: RouteName.HOME,
-            redirect: (to) => {
-                return RouteName.SCHEDULE
-            },
-        },
-        {
-            path: '/schedule',
-            name: RouteName.SCHEDULE,
-            component: ScheduleView,
-        },
-        {
-            path: '/providers',
-            name: RouteName.PROVIDERS,
-            redirect: (to) => {
-                return RouteName.SCHEDULE
-            },
-        },
-        {
-            path: '/patients',
-            name: RouteName.PATIENTS,
-            component: PatientsView,
-        },
-    ],
+    routes: routes,
 })
 
 export default router

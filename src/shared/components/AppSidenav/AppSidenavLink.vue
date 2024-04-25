@@ -22,6 +22,7 @@ const props = withDefaults(
             <FontAwesomeIcon
                 :icon="icon"
                 class="h-6"
+                data-test-id="sidenav-link-icon"
             />
         </div>
 
